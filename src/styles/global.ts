@@ -6,12 +6,12 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
-    scroll-padding-top: 10rem;
+    scroll-padding-top: 5rem;
 
     &.light{
 
       body{
-        transition: 0.5s;
+        transition: 0.3s;
         background-color: #f5f5f5;
         color: var(--black);
       }
@@ -21,10 +21,10 @@ export const GlobalStyle = createGlobalStyle`
       }
 
       header.header-fixed{
-        transition: 0.5s;
+        transition: 0.3s;
         background-color: #f5f5f550;
         a{
-          transition: 0.5s;
+          transition: 0.s;
           color: black;
         }
         .menu,.menu:before, .menu:after{

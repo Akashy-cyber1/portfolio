@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import VinayakSingh from "../../assets/VinayakSingh.webp";
+import PHOTO from "../../assets/Akash.svg";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -23,7 +24,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Akash yadav, A dynamic professional with a strong Fullstack developer background, known for delivering high-quality work, problem-solving, team collaboration, and exceeding expectations. Passionate about innovation, growth, and continuous learning, committed to making a positive impact through excellence, integrity, and strategic thinking.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
@@ -39,16 +40,16 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
+            <h4> Bachelor of Technology (B.Tech)</h4>
+            <p>Chuadhary charan singh University, Meerut | July 2021 - june 2024</p>
+            <p>7.10 CGPA</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+             <h3>Experience:</h3><h4>Fullstack Developer</h4>
+            <p>Aservemind infotech india Pvt ltd | September 2023 - Present</p>
+            <p>delhi, India</p>
           </div>
         </ScrollAnimation>
 
@@ -115,7 +116,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={PHOTO} alt="Akash yadav" style={{borderRadius:"50%"}}/>
         </ScrollAnimation>
       </div>
     </Container>
