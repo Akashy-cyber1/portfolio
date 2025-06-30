@@ -1,4 +1,4 @@
-# Portfolio of Vinayak Singh
+# Portfolio of Akash Yadav
 
 
 This project was created with CRA (Create React App)
