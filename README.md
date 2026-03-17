@@ -1,80 +1,113 @@
 # Akash Yadav Portfolio
 
-A modern and responsive personal portfolio website built to showcase my skills, projects, and development journey as an aspiring Full Stack Developer.
+<p align="center">
+  <b>A modern, responsive, and recruiter-focused portfolio website built with React and TypeScript.</b>
+</p>
 
-## Live Demo
-[https://portfolio-rho-jet-61.vercel.app/]
-
-## GitHub Repository
-[https://github.com/Akashy-cyber1/portfolio]
-(https://github.com/Akashy-cyber1)
+<p align="center">
+  <a href="https://portfolio-rho-jet-61.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel" alt="Live Demo" />
+  </a>
+  <a href="https://github.com/Akashy-cyber1/portfolio" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub Repo" />
+  </a>
+  <a href="https://github.com/Akashy-cyber1" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
+  </a>
+</p>
 
 ---
 
-## About This Project
+## 🌐 Live Demo
 
-This portfolio website reflects my current skills, project work, and learning journey in web development.  
-It is designed to create a strong first impression for recruiters, clients, and collaborators by presenting my work in a clean, interactive, and professional way.
+🔗 **Portfolio Website:**  
+[https://portfolio-rho-jet-61.vercel.app/](https://portfolio-rho-jet-61.vercel.app/)
 
-The portfolio highlights:
-- My introduction and professional profile
+## 📂 GitHub Repository
+
+🔗 **Repository Link:**  
+[https://github.com/Akashy-cyber1/portfolio](https://github.com/Akashy-cyber1/portfolio)
+
+👨‍💻 **GitHub Profile:**  
+[https://github.com/Akashy-cyber1](https://github.com/Akashy-cyber1)
+
+---
+
+## 🚀 About This Project
+
+This portfolio website reflects my current skills, project work, and development journey as an aspiring Full Stack Developer.
+
+It is designed to create a strong first impression for **recruiters, clients, and collaborators** by presenting my profile in a clean, interactive, and professional format.
+
+### ✨ This portfolio highlights:
+- Professional introduction
 - Skills and technology stack
 - Selected projects
 - Contact information
-- Resume download option
-- Smooth and modern user interface
+- Resume access
+- Smooth and modern UI experience
 
 ---
 
-## Features
+## 🎯 Features
 
-- Responsive design for desktop, tablet, and mobile
-- Clean and modern UI
-- Dark and light theme toggle
-- Smooth section-based navigation
-- Animated sections and interactive visuals
-- Project showcase section
-- Contact form integration
-- Resume download option
-- Social profile links
-- Optimized portfolio layout for recruiter visibility
-
----
-
-## Tech Stack
-
-- React
-- TypeScript
-- Styled Components
-- React Router Hash Link
-- React Animate On Scroll
-- React Toastify
-- React Google reCAPTCHA
-- Formspree
-- Vercel Analytics
+- 📱 Responsive design for desktop, tablet, and mobile
+- 🎨 Clean and modern user interface
+- 🌙 Dark and light theme toggle
+- 🔗 Smooth section-based navigation
+- ⚡ Animated sections and interactive visuals
+- 📁 Project showcase section
+- 📬 Contact form integration
+- 📄 Resume download option
+- 🌍 Social profile links
+- 💼 Recruiter-friendly layout and presentation
 
 ---
 
-## Sections Included
+## 🛠 Tech Stack
 
-- Hero Section
-- About Me
-- Skills
-- Projects
-- Contact
-- Footer
+- **React**
+- **TypeScript**
+- **Styled Components**
+- **React Router Hash Link**
+- **React Animate On Scroll**
+- **React Toastify**
+- **React Google reCAPTCHA**
+- **Formspree**
+- **Vercel Analytics**
 
 ---
 
-## Why I Built This
+## 📌 Sections Included
 
-I built this portfolio to present myself professionally as a developer and to demonstrate my practical frontend development skills.  
+- 🏠 Hero Section
+- 🙋 About Me
+- 🧠 Skills
+- 💻 Projects
+- 📩 Contact
+- 🔻 Footer
+
+---
+
+## 💡 Why I Built This
+
+I built this portfolio to present myself professionally as a developer and to demonstrate my practical frontend development skills.
+
 This project also helped me improve my understanding of:
-- component-based architecture
-- responsive layouts
+
+- Component-based architecture
+- Responsive layouts
 - UI/UX presentation
-- project structuring
-- deployment workflow
-- Git and GitHub collaboration practices
+- Project structuring
+- Deployment workflow
+- Git and GitHub practices
 
+---
 
+## 📷 Preview
+
+> Add your portfolio screenshots here for a more attractive GitHub presentation.
+
+### Desktop View
+```md
+![Portfolio Desktop Screenshot](./public/Images/your-screenshot.png)
