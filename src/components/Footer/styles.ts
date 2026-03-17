@@ -2,60 +2,98 @@ import styled from "styled-components";
 
 
 export const Container = styled.footer`
-  background-color: #2b2b2b;
-  padding: 3rem 15rem;
-  margin-top: 10rem;
+  background: var(--secondary, #1a1a1a);
+  padding: 3rem 10rem;
+  margin-top: 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-
-  .logo{
-    font-size: 2.8rem;
+  border-top: 1px solid var(--border, #333);
+  
+  .logo {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--text-primary, #ffffff);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: var(--accent, #23ce6b);
+    }
   }
 
-  p{
-    letter-spacing: 0.2rem;
+  p {
+    color: var(--text-secondary, #b0b0b0);
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    img{
-      width: 2.6rem;
-      animation: spinning 5s infinite linear;
+    gap: 0.8rem;
+    
+    img {
+      width: 2.4rem;
+      height: 2.4rem;
     }
   }
-  .social-media{
+
+  .social-media {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
 
-    img,span{
-      font-size: 3rem;
-      width: 3rem;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background: var(--accent, #23ce6b);
+        border-color: var(--accent, #23ce6b);
+        transform: translateY(-2px);
+      }
+    }
+    
+    img {
+      width: 2.2rem;
+      height: 2.2rem;
+      filter: brightness(1);
     }
   }
 
-
-  @keyframes spinning {
-    0%{
-      transform: rotate(0);
-    }
-    100%{
-      transform: rotate(360deg);
-    }
-  }
-
-  @media(max-width: 800px){
-    padding: 4rem 10rem;
+  @media (max-width: 900px) {
+    padding: 3rem 6rem;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.5rem;
     text-align: center;
   }
-  @media(max-width: 600px){
-    padding: 4rem 1rem;
-    p{
-      font-size: 1.2rem;
+
+  @media (max-width: 600px) {
+    padding: 2.5rem 2rem;
+    margin-top: 6rem;
+    
+    p {
+      font-size: 1.3rem;
+    }
+    
+    .social-media {
+      gap: 1.2rem;
+      
+      a {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+      
+      img {
+        width: 2rem;
+        height: 2rem;
+      }
     }
   }
 `

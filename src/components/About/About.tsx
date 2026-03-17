@@ -1,17 +1,5 @@
 import { Container } from "./styles";
 import PHOTO from "../../assets/Akash.svg";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -19,103 +7,57 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>About Me</h2>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Akash yadav, A dynamic professional with a strong Fullstack developer background, known for delivering high-quality work, problem-solving, team collaboration, and exceeding expectations. Passionate about innovation, growth, and continuous learning, committed to making a positive impact through excellence, integrity, and strategic thinking.
+            Akash Yadav – Aspiring Full Stack Developer from Farrukhabad, Uttar Pradesh. Passionate about creating modern web applications through hands-on project building and self-directed learning. Focused on frontend and backend technologies to deliver complete, deployable solutions.
           </p>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            My development approach prioritizes clean code, responsive design, and real-world deployment workflows using Git and GitHub. Constantly strengthening skills in full stack development to contribute effectively in professional environments.
           </p>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            Actively building projects that demonstrate practical problem-solving and technical proficiency across the stack.
           </p>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
-            <h3>Education:</h3>
-            <h4> Bachelor of Technology (B.Tech)</h4>
-            <p>Chuadhary charan singh University, Meerut | July 2021 - june 2024</p>
-            <p>7.10 CGPA</p>
-          </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
-          <div className="experience">
-             <h3>Experience:</h3><h4>Fullstack Developer</h4>
-            <p>Aservemind infotech india Pvt ltd | September 2023 - Present</p>
-            <p>delhi, India</p>
+            <h3>Education</h3>
+            <h4>Diploma in Computer Science (Polytechnic)</h4>
+            <p>Core computing and programming foundation</p>
+            <h4>B.Tech in Computer Science</h4>
+            <p>Advanced software engineering and development</p>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+          <h3>Main Skills</h3>
         </ScrollAnimation>
-        <div className="hard-skills">
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={python} alt="python" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
-              <img src={java} alt="java" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={reactIcon} alt="React" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={shopify} alt="shopify" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={cssIcon} alt="Css" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
-          </div>
-        </div>
+
+        <ul style={{ display: 'flex', flexWrap: 'wrap', listStyle: 'none', gap: '1rem', padding: 0 }}>
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
+          <li>Styled Components</li>
+          <li>Next.js</li>
+          <li>Django</li>
+          <li>PostgreSQL</li>
+          <li>Git/GitHub</li>
+        </ul>
       </div>
+
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={PHOTO} alt="Akash yadav" style={{borderRadius:"50%"}}/>
+          <img src={PHOTO} alt="Akash Yadav" style={{ borderRadius: "50%" }} />
         </ScrollAnimation>
       </div>
     </Container>

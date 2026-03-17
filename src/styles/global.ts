@@ -1,119 +1,118 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  :root{
-    --pink: #E31F71;
-    --black: #212121;
-    --green: #23ce6b;
-    --blue: #016fb9;
+  :root {
+    /* New premium palette */
+    --primary: #1e3a8a;
+    --accent: #3b82f6;
+    --bg-dark: #0f172a;
+    --bg-light: #f8fafc;
+    --text-dark: #0f172a;
+    --text-light: #f8fafc;
+    --success: #10b981;
+    --border-light: rgba(15, 23, 42, 0.15);
+
+    /* Backward-compatible old variables used by existing components */
+    --black: #0f172a;
+    --blue: #3b82f6;
+    --pink: #2563eb;
+    --green: #10b981;
+    --white: #f8fafc;
+    --gray: #94a3b8;
+
     scroll-padding-top: 5rem;
-
-    &.light{
-
-      body{
-        transition: 0.3s;
-        background-color: #f5f5f5;
-        color: var(--black);
-      }
-
-      .logo{
-        color: var(--black);
-      }
-
-      header.header-fixed{
-        transition: 0.3s;
-        background-color: #f5f5f550;
-        a{
-          transition: 0.s;
-          color: black;
-        }
-        .menu,.menu:before, .menu:after{
-          background-color: var(--black); 
-        }
-        .menu.active{
-          background-color: rgba(555,555,555,0);
-        }
-      }
-
-      footer.footer{
-        transition: 0.5s;
-        background-color: rgba(0,0,0,0.1);
-        color: var(--black);
-      }
-
-      form{
-        input,textarea{
-          transition: 0.5s;
-          border: solid 1px var(--black);
-          color: var(--black);
-          &::placeholder{
-            transition: 0.5s;
-            color: var(--black);
-          }
-        }
-      }
-
-    }
   }
 
-  ul, li {
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding:0;
+  html.light body {
+    transition: 0.3s;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
   }
 
-  *{
+  html.light .logo {
+    color: var(--text-dark);
+  }
+
+  html.light header.header-fixed {
+    transition: 0.3s;
+    backdrop-filter: blur(10px);
+    background-color: rgba(248, 250, 252, 0.9);
+  }
+
+  html.light header.header-fixed a {
+    color: var(--text-dark);
+  }
+
+  html.light header.header-fixed .menu,
+  html.light header.header-fixed .menu:before,
+  html.light header.header-fixed .menu:after {
+    background-color: var(--text-dark);
+  }
+
+  html.light footer.footer {
+    background-color: rgba(37, 99, 235, 0.08);
+    color: var(--text-dark);
+    border-top: 1px solid var(--border-light);
+  }
+
+  html.light form input,
+  html.light form textarea {
+    border: 1px solid var(--text-dark);
+    color: var(--text-dark);
+  }
+
+  html.light form input::placeholder,
+  html.light form textarea::placeholder {
+    color: rgba(15, 23, 42, 0.65);
+  }
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  html{
+  html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 
-  body{
+  body {
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
-    color: #FFFF;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 400;
+  body, input, textarea, button {
+    font-family: inherit;
   }
 
-  a{
+  a {
     text-decoration: none;
+    color: inherit;
   }
 
-  button, .button{
+  button, .button {
+    background: linear-gradient(135deg, var(--accent), var(--primary));
+    color: white;
     border: none;
-    cursor: pointer;
-    background-color: var(--green);
-    color: #FFFF;
-    border-radius: 2rem;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
     font-weight: 500;
-    transition: filter 0.25s;
-    &:hover{
-      filter: brightness(0.8);
-    }
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
 
-  button:disabled, .button:disabled{
-    filter: brightness(0.8);
-    cursor: not-allowed;
+  button:hover, .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.25);
   }
 
-
-  .logo{
-    font-size: 3rem;
-    color: #FFFF;
-    // &::first-letter{
-    //   color: var(--green);
-    // }
+  .logo {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    color: var(--text-light);
+    font-weight: 700;
   }
-`
-
+`;

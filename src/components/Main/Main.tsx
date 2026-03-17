@@ -94,7 +94,7 @@ export function Main() {
               "consent": false,
               "distance": 150,
               "enable": false,
-              "opacity": 0.4,
+              "opacity": 0.2,
               "width": 1
             },
             "move": {
@@ -110,31 +110,31 @@ export function Main() {
               "enable": true,
               "outMode": "out",
               "random": false,
-              "speed": 2,
+              "speed": 0.8,
               "straight": false
             },
             "number": {
               "density": {
                 "enable": true,
-                "area": 800
+                "area": 1200
               },
-              "limit": 20,
-              "value": 15,
+              "limit": 10,
+              "value": 8,
             },
             "opacity": {
               "animation": {
                 "enable": true,
-                "minimumValue": 0.2,
-                "speed": 1,
+                "minimumValue": 0.1,
+                "speed": 0.5,
                 "sync": false
               },
               "random": true,
-              "value": 1
+              "value": 0.4
             },
             "rotate": {
               "animation": {
                 "enable": true,
-                "speed": 5,
+                "speed": 2,
                 "sync": false
               },
               "direction": "random",

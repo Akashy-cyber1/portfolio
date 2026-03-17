@@ -9,49 +9,52 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://vinayaksingh.in" className="logo">
-        <span>www.akash</span>
-        <span>yadav.in</span>
+      <a href="https://www.akashyadav.in" className="logo">
+        Akash Yadav
       </a>
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
+          © 2024 Akash Yadav. Made with <img src={reactIcon} alt="React" />
         </p>
       </div>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/codevinayak"
+          href="https://linkedin.com/in/akashyadav"
           target="_blank"
           rel="noreferrer"
+          aria-label="LinkedIn"
         >
-          <img src={linkedin} alt="Linkedin" />
+          <img src={linkedin} alt="LinkedIn" />
         </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/akashyadav"
           target="_blank"
           rel="noreferrer"
+          aria-label="GitHub"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak+I+found+your+contact+through+portfolio+site.%0A%0A"
+          href="https://wa.me/919876543210"
           target="_blank"
           rel="noreferrer"
+          aria-label="WhatsApp"
         >
-          <img src={whatsapp} alt="Whatsapp" />
+          <img src={whatsapp} alt="WhatsApp" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://t.me/akashyadav"
           target="_blank"
           rel="noreferrer"
+          aria-label="Telegram"
         >
-          <img src={telegram} alt="telegram" />
+          <img src={telegram} alt="Telegram" />
         </a>
         <a
-          href="https://www.instagram.com/vinayaksingh.in"
+          href="https://instagram.com/akashyadav"
           target="_blank"
           rel="noreferrer"
+          aria-label="Instagram"
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
