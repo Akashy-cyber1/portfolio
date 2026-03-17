@@ -4,6 +4,6 @@ Personal portfolio website built with React and TypeScript.
 
 ## Run locally
 
-```bash
+bash
 npm install
 npm start
