@@ -19,22 +19,22 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/Akashy-cyber1/Trading-Plateform.git" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Akashy-cyber1/FreelancerHub" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Trading-Platform</h3>
+              <h3>FreelancerHub – Django Freelance Job Portal & Collaboration Platform</h3>
               <p>
-                A trading website using HTML, CSS, JavaScript, Bootstrap, and the MERN stack enables user authentication, real-time market data, portfolio management, and secure trading through a responsive, full-stack web application.
+                Developed FreelancerHub, a Django-powered freelance marketplace platform with project posting, bidding workflows, role-based authentication, and scalable backend architecture for real-world client–freelancer interactions.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>HTML/CSS</li>
-                <li>Javascript</li>
-                <li>Bootstrap</li>
+                <li>Python</li>
+                <li>Django REST Framework</li>
+                <li>PostgreSQL</li>
                 <li>React.js</li>
               </ul>
             </footer>
@@ -46,16 +46,16 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Serverless-Voting-Application" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Akashy-cyber1/skycodetools" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                {/* <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
+                <a href="https://skycodetools.in/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
-                </a>  */}
+                </a>  
                 </div>
             </header>
             <div className="body">
-              <h3>Serverless Voting Application for Programming Languages</h3>
-              <p> Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency. </p>
+              <h3>SkyCode Tools – AI-Powered File & Image Utility Platform</h3>
+              <p> Developed SkyCode Tools, a full-stack file utility platform using Next.js, React, Django, and PostgreSQL, offering browser-based tools like PDF conversion, PDF merging/splitting, image compression, and background removal through a modern responsive interface. </p>
             </div>
             <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
           </div>
@@ -66,23 +66,23 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Akashy-cyber1" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
+                <a href="https://electroonline.in/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" /></a>
               </div>
             </header>
             <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
+              <h3>Electro Online – Affordable Electronics & Appliance Marketplace</h3>
               <p>
-                Developed an interactive chatbot application using Streamlit, OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text extraction, enabling users to ask context-based questions on uploaded PDFs and general queries.
+                Developed Electro Online, a WordPress e-commerce platform for affordable and refurbished electronics, designed to deliver easy product discovery, trusted deals, warranty support, and a smooth online shopping experience.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Streamlit</li>
-                <li>PyPDF2</li>
-                <li>LangChain</li>
+                <li>WordPress</li>
+                <li>WooCommerce</li>
+                <li>E-Commerce Website</li>
               </ul>
             </footer>
           </div>
@@ -94,21 +94,21 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Akashy-cyber1/frontend-Ecom" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://medibook.vinayaksingh.com" target="_blank" rel="noreferrer">
+                <a href="https://trendify-e-commerce-wy58.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>MediBook: Medical Appointment Scheduler with Health History</h3>
-              <p>Developed a secure medical appointment management platform with CRUD functionality, utilizing role-based access control, encryption techniques, and a robust MySQL database with normalized schema design and stored procedures for efficient scheduling, data privacy, and reliable retrieval of patient records.</p>
+              <h3>Trendify | E-commerce</h3>
+              <p>Trendify is a React-based e-commerce website built with a modern, responsive UI and seamless shopping experience, showcasing practical frontend skills, reusable components, and real-world product-focused web development.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>PHP</li>
+                <li>React</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>MySQL</li>
@@ -125,23 +125,23 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Akashy-cyber1/FreelancerHub" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://youtu.be/NOm-3MynPLE" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Akashy-cyber1/FreelancerHub" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Real-Time Hand Gesture-Driven 3D Object Manipulation</h3>
-              <p>Developed a real-time hand gesture recognition system for intuitive 3D object manipulation. Leveraged a multimodal approach integrating OpenCV for video processing, MediaPipe for hand detection/landmark extraction, and scikit-learn for machine learning model training. Achieved 95.2% accuracy in hand gesture classification with efficient real-time performance.</p>
+              <h3>RAG-Based Enterprise Knowledge Assistant for Internal Documentation</h3>
+              <p>Developed a RAG-based Enterprise Knowledge Assistant that enables employees to retrieve accurate answers from internal SOPs, policies, and support documents through intelligent document search and contextual response generation.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>OpenCV</li>
-                <li>MediaPipe</li>
-                <li>scikit-learn</li>
+                <li>Python</li>
+                <li>LLM Integration</li>
+                <li>Enterprise AI Application</li>
               </ul>
             </footer>
           </div>
@@ -155,23 +155,23 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="_blank" rel="noreferrer">
+                {/* <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                {/* <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
+                 <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> */}
               </div>
             </header>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
+              <h3>AI-Driven Customer Churn Prediction for Retention Strategy</h3>
               <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
+                Developed a customer churn prediction system using machine learning to detect at-risk users and support data-driven retention strategies for telecom and subscription-based businesses.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
+                <li>Numpy</li>
                 <li>Pandas</li>
                 <li>Matplotlib</li>
               </ul>

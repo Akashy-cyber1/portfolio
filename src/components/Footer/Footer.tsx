@@ -9,7 +9,7 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://www.akashyadav.in" className="logo">
+      <a href="https://portfolio-rho-jet-61.vercel.app/" className="logo">
         Akash Yadav
       </a>
       <div>
@@ -19,7 +19,7 @@ export function Footer() {
       </div>
       <div className="social-media">
         <a
-          href="https://linkedin.com/in/akashyadav"
+          href="www.linkedin.com/in/akashyprofile1"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -27,7 +27,7 @@ export function Footer() {
           <img src={linkedin} alt="LinkedIn" />
         </a>
         <a
-          href="https://github.com/akashyadav"
+          href="https://github.com/Akashy-cyber1/"
           target="_blank"
           rel="noreferrer"
           aria-label="GitHub"
@@ -35,7 +35,7 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/917007592695"
           target="_blank"
           rel="noreferrer"
           aria-label="WhatsApp"

@@ -37,10 +37,10 @@ export function Hero() {
 
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
           <div className="social-media">
-            <a href="https://www.linkedin.com/in/akash-yadav-662017244" target="_blank" rel="noreferrer">
+            <a href="www.linkedin.com/in/akashyprofile1" target="_blank" rel="noreferrer">
               <img src={linkedin} alt="LinkedIn" />
             </a>
-            <a href="https://github.com/Akashy-cyber1" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Akashy-cyber1/" target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="GitHub" />
             </a>
             <a href="https://wa.me/917007592695?text=Hello! I found your contact through the portfolio site." target="_blank" rel="noreferrer">

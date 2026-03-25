@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import PHOTO from "../../assets/Akash.svg";
+import PHOTO from "../../assets/profile image.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
